@@ -1,14 +1,10 @@
 import React from 'react';
-import AI from './AI.jpg';
-import CNC from './CNC.jpg';
-import BCC from './BCC.jpg';
-import IOT from './IOT.jpg';
 
 function Courses(props){
      return (
         <div>
              <ol><strong>
-                 <div>
+                 
                  <li>{props.AI}         {props.AIlogo}</li>
 
                  <br/>
@@ -16,9 +12,9 @@ function Courses(props){
 
                  <hr/>
 
-                 </div>
+            
                  
-                 <div>
+            
                  <li>{props.CNC} {props.CNClogo}</li>
 
                  <br/>
@@ -27,9 +23,9 @@ function Courses(props){
 
                  <hr/>
 
-                 </div>
+               
                  
-                 <div>
+        
                  <li>{props.IOT} {props.IOTlogo}</li>
 
                  <br/>
@@ -38,9 +34,9 @@ function Courses(props){
 
                  <hr/>
 
-                 </div>
+             
                  
-                 <div>
+                 
                  <li>{props.BCC} {props.BCClogo}</li>
 
                  <br/>
@@ -48,8 +44,7 @@ function Courses(props){
     
 
                  <hr/>
-                 </div>
-
+                 
              </strong></ol>
         </div>
      )

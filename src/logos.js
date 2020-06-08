@@ -23,3 +23,4 @@ function Logos(props){
 }
 
 export default Logos;
+*/
